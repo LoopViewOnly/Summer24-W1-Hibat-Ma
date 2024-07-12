@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(235, 184, 255);
+ width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  user-select: none;
+}
+ 
+#images {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ 
+#images img {
+  width: 40%;
+  cursor: pointer;
+}
+ 
+button {
+  background-color: rgb(180, 255, 239);
+}
+
+h2{
+  color: hsl(180, 255, 239);
+}
